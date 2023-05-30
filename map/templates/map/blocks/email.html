@@ -1,0 +1,9 @@
+{% load wagtailcore_tags %}
+
+{% if not value.live %}
+    {{ value.ico|richtext }}&nbsp
+    <a href="mailto:info@stanwood.by">
+        {{ value.e_mail }}
+    </a>
+{% endif %}
+

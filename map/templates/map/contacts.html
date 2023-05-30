@@ -1,0 +1,9 @@
+{% load wagtailcore_tags wagtailsettings_tags %}
+
+<ul class="fa-ul">
+    <li>{{ settings.map.Map.phone }}</li>
+    <li>{{ settings.map.Map.email }}</li>
+    <li>{{ settings.map.Map.address_ico|richtext }}&nbsp&nbsp{{ settings.map.Map.address }}</li>
+    <li>{{ settings.map.Map.work_time_ico|richtext }}&nbsp&nbsp{{ settings.map.Map.work_time }}</li>
+</ul>
+

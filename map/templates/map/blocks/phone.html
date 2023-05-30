@@ -1,0 +1,8 @@
+{% load wagtailcore_tags %}
+
+{% if not value.live %}
+    {{ value.ico|richtext }}&nbsp
+    <a href="tel:{{ value.number }}">
+        <span style="font-weight: 700">{{ value.type }}</span>&nbsp{{ value.number }}
+    </a>
+{% endif %}

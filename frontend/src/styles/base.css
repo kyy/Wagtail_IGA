@@ -1,0 +1,128 @@
+body {
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #777;
+    line-height: 20px;
+    width: 100%;
+
+}
+
+.block-contacts {
+    width: 26%;
+    height: 316px;
+    position: absolute;
+    top: 2px;
+    z-index: 90;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 1));
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 1));
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 1));
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 1));
+    right: 5px;
+    padding: 0 5px;
+}
+
+
+.info-block {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
+
+}
+
+.fa-ul {
+    margin-left: 0;
+}
+
+.footer_contacts {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 35px;
+    margin-top: 23px;
+    text-transform: uppercase;
+
+}
+
+.block-contacts li {
+    color: #363535;
+    font-weight: 400;
+    padding-bottom: 1em;
+}
+
+
+.block-phone, .block-email {
+    margin-bottom: 0.2em;
+}
+
+.block-phone > a, .block-email > a {
+    color: #1a1d20;
+    text-decoration: none
+
+}
+
+.block-phone > a:hover, .block-email > a:hover {
+    color: #b2b2b2;
+
+}
+
+.block-brands > a {
+    padding: 10px;
+    margin-right: 5px;
+    color: #1a1d20;
+    z-index: 100;
+}
+
+.block-brands > a:hover {
+    color: #b2b2b2;
+}
+
+.brands {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#navigation .nav-link, #navigation .dropdown-item {
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #272727;
+}
+
+
+#contacts_dropdown .dropdown-item {
+    line-height: 1em;
+}
+
+#contacts_dropdown li {
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+#contacts_dropdown .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 100;
+    float: left;
+    min-width: 200px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 13px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.block-contacts svg, #contacts_dropdown ul svg {
+    color: #000000;
+}

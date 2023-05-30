@@ -1,0 +1,15 @@
+{% if not settings.map.Map.address_live %}
+    <div class="container d-none d-lg-block">
+        <div style="position:relative; margin: 0 auto;">
+            <div class="block-contacts">
+                <div class="info-block">
+                    <div class="footer_contacts">
+                        Контакты
+                    </div>
+                    {% include 'map/contacts.html' %}
+                </div>
+            </div>
+        </div>
+    </div>
+        {{ settings.map.Map.map }}
+{% endif %}
